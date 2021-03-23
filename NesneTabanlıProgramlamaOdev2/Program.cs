@@ -52,6 +52,30 @@ namespace NesneTabanlıProgramlamaOdev2
                             Console.WriteLine(vize * 0.4 + final * 0.6);
                             int ort = Convert.ToInt32(Console.ReadLine());
                             break;
+                            if (ort > 90)
+                            {
+                                Console.WriteLine("AA ");
+                            }
+                            else if (ort > 85)
+                            {
+                                Console.WriteLine("BA ");
+                            }
+                            else if (ort> 80)
+                            {
+                                Console.WriteLine("BB ");
+                            }
+                            else if (ort > 75)
+                            {
+                                Console.WriteLine("CB");
+                            }
+                            else if (ort > 50)
+                            {
+                                Console.WriteLine("CC");
+                            }
+                            else
+                            {
+                                Console.WriteLine("DD");
+                            }
                         default:
                             break;
 
